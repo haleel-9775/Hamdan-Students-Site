@@ -15,7 +15,7 @@ p,ul li,ol li{
 	font-size:14px;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Alegreya', serif;
+	font-family: 'Raleway', sans-serif;
 	margin:0;
 }
 ul,label{
@@ -34,6 +34,7 @@ input[type="submit"],input[type="reset"],.w3_agileits_mail_left1 a,.w3_more a,.w
 }
 .header-w3l{
 	position:relative;
+    background-color: #121743;
 }
 /*-- banner --*/
 .banner{
@@ -277,11 +278,12 @@ input[type="submit"],input[type="reset"],.w3_agileits_mail_left1 a,.w3_more a,.w
     margin-bottom: 0;
 }
 .navbar-default {
-    background-color: #fff;
+    background-color: #121743;
     border: none;
     padding: 1em 0;
 }
 .navbar-brand {
+    font-family: 'Raleway', sans-serif;
     padding: 0;
     font-size: 1em;
     line-height: 36px;
@@ -331,7 +333,7 @@ input[type="submit"],input[type="reset"],.w3_agileits_mail_left1 a,.w3_more a,.w
 	
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color:#121743;
+    color:#ffffff;
     background-color: transparent;
 }
 .w3_social_icons {
@@ -371,7 +373,7 @@ a.w3l_instagram:hover{
   left: 0;
   overflow: hidden;
   padding: 0 10px;
-  color: #121743;
+  color: #ffffff;
   content: attr(data-hover);
   -moz-transition: ease-out 0.3s;
   -o-transition: ease-out 0.3s;
@@ -429,6 +431,7 @@ a.w3l_instagram:hover{
     color: #fff;
     padding: 20.7px 0px;
     font-size: 24px;
+    font-family: 'Raleway', sans-serif;
     border-radius: 0;
     text-align: center;
 }
@@ -623,10 +626,10 @@ a.w3l_instagram:hover{
 }
 .w3layouts_footer_grid_right p a{
 	color:#fff;
-	text-decoration:underline;
+	text-decoration:none;
 }
 .w3layouts_footer_grid_right p a:hover{
-	color:#121743;
+	color:#919191;
 }
 .w3layouts_footer_grid_left h2 a{
 	color:#fff;
@@ -673,14 +676,14 @@ a.w3l_instagram:hover{
 	text-decoration:none;
 }
 .w3_footer_grid ul li.active a {
-    color: #121743;
+    color: #ffffff;
 }
 .w3_footer_grid ul li i{
 	padding-right:1em;
-	color:#121743;
+	color:#ffffff;
 }
 .w3_footer_grid ul li a:hover{
-	color:#3632ff;
+	color:#999999;
 }
 .w3_footer_grid input[type="email"] {
     outline: none;
@@ -799,6 +802,7 @@ h3.icon-subheading {
 }
 h3.agileits-icons-title {
     text-align: center;
+    font-family: 'Raleway', sans-serif;
     font-size: 35px;
     color: #000;
     font-weight: 600;
@@ -1830,16 +1834,16 @@ h2.tit{
 	border: none;
 }
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #212121;
+	background-color: #ffffff;
 }
 .navbar-default .navbar-toggle {
-	border-color: #121743;
+	border-color: #ffffff;
 }
 .navbar-toggle {
 	margin:0.5em 0 0;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: transparent;
+	background-color: #121743;
 }
 .navbar-brand {
 	font-size: .9em;
@@ -1858,12 +1862,12 @@ h2.tit{
 	margin: 0;
 	float: none;
 	text-align: center;
-	background: #f5f5f5;
+	background: #121743;
 	padding-bottom: 1em;
 }
 .navbar-nav {
 	margin: 0;
-	background: #f5f5f5;
+	background: #121743;
 	text-align: center;
 	padding: 1em 0;
 }
@@ -2275,4 +2279,17 @@ h3.agile {
 .w3layouts_footer_grid_left h2 a {
     font-size: 1em;
 }
+}
+.chairman-heading{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 90px;
+    color: #000;
+}
+.chairman-Message{
+    padding-top: 40px;
+    font-size: 22px;
+}
+.logo-hsu{
+    height: 65px;
+    padding-bottom: 17px;
 }
