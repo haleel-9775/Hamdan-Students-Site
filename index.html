@@ -14,14 +14,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Inculcation Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
+
 <!-- //for-mobile-apps -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-<script src="js/main.js"></script>
+
 <!-- //js -->
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
 <!-- font-awesome icons -->
@@ -70,7 +68,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<div class="banner">
+
 		<div class="container">						
+
 		</div>
 	</div>
 <!-- //banner -->	
@@ -81,7 +81,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<!-- Nav tabs -->
 					 <ul class="nav nav-tabs">
 						<li class="active"><a href="#Tab1" data-toggle="tab" aria-expanded="false">Campus</a></li>
-						<li class=""><a href="#Tab2" data-toggle="tab" aria-expanded="false">ummi khalid</a></li>
+						<li class=""><a href="#Tab2" data-toggle="tab" aria-expanded="false">office</a></li>
 						<li class=""><a href="#Tab3" data-toggle="tab" aria-expanded="false">Gate</a></li>
 						<li class=""><a href="#Tab4" data-toggle="tab" aria-expanded="false">Main Building</a></li>
 						<li class=""><a href="#Tab5" data-toggle="tab" aria-expanded="true">Admin Block </a></li>
@@ -225,6 +225,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- for bootstrap working -->
 	<script src="js/bootstrap.js"></script>
 <!-- //for bootstrap working -->
-
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+	function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/main.js"></script>
+	<!-- flexSlider -->
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+		$(window).load(function(){
+		  $('.flexslider').flexslider({
+			animation: "slide",
+			start: function(slider){
+			  $('body').removeClass('loading');
+			}
+		  });
+		});
+	</script>
+<!-- //flexSlider -->
 </body>
 </html>
